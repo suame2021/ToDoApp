@@ -7,7 +7,7 @@
     android:background="#B2914184"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Homeactivity">
+    tools:context="Homeactivity">
 
     <TextView
         android:id="@+id/usernameDisplay"
@@ -16,4 +16,10 @@
         android:text="TextView"
         tools:layout_editor_absoluteX="197dp"
         tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>
